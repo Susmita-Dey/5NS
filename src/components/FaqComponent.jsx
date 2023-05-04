@@ -36,15 +36,11 @@ export default function FaqComponent() {
         },
     ];
     return (
-        <div className="container mx-auto my-10">
-            <div className="px-4 text-center">
-                <h1 className="text-4xl mt-20 heading">Frequently Asked Questions</h1>
-                <p className=" m-auto mt-5 text-xl">
-                    Need some help? Our most frequently asked questions are available to
-                    support you.
-                </p>
+        <div className="container mx-auto my-10 flex flex-col">
+            <div className="px-20">
+                <h1 className="text-4xl mt-20 font-semibold">Frequently Asked Questions</h1>
             </div>
-            <div className="px-4 md:px-20 text-justify">
+            <div className="px-4 md:px-20 text-justify justify-center items-center ">
                 {accordiondata.map((data, index) => {
                     return (
                         <AccordionItems

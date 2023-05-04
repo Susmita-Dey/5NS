@@ -6,10 +6,10 @@ import { Collapse } from "react-collapse";
 
 const AccordionItems = ({ open, toggle, title, desc }) => {
     return (
-        <div className="pt-10 text-[#3A3A3A]">
+        <div className="pt-10 font-['Satoshi]">
             <div
                 onClick={toggle}
-                className="px-2 bg-white flex justify-between cursor-pointer border-t-2 border-[#3A3A3A] pt-4"
+                className="px-2 flex justify-between cursor-pointer border-t-2 border-gray-400 pt-4"
             >
                 <div className="flex flex-row gap-2">
                     {open ? <TbCircleFilled className="text-blue-900 font-bold text-lg mt-2" /> : <TbCircleFilled className="text-blue-500 font-bold text-lg mt-2" />}
@@ -20,7 +20,7 @@ const AccordionItems = ({ open, toggle, title, desc }) => {
                 </div>
             </div>
             <Collapse isOpened={open}>
-                <div className="bg-white text-xl md:text-md px-2 md:px-3 mt-4">{desc}</div>
+                <div className="text-xl md:text-md px-2 md:px-3 mt-4">{desc}</div>
             </Collapse>
         </div>
     );

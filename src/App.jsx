@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       {/* <div className={`h-full w-full mx-auto py-2 ${darkMode ? "dark" : "light"}`}> */}
-      <div className="h-full w-full mx-auto">
+      <div className="h-full w-full mx-auto dark:bg-black dark:text-white">
         {/* <Navbar darkMode={darkMode}
           toggleDarkMode={toggleDarkMode} /> */}
         <Navbar />
