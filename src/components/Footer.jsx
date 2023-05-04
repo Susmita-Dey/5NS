@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from "/5ns.svg"
+import { FaTelegramPlane, FaTwitter, FaInstagram } from "react-icons/fa"
 
 export default function Footer() {
     return (
@@ -12,12 +13,16 @@ export default function Footer() {
                             <h3 className="font-bold md:text-3xl text-xl">5NS</h3>
                             <p className="font-normal text-base">5ire Naming Service</p>
                         </div>
-                        <div className="flex flex-row px-2 text-lg gap-1">
-                            <p>G</p>
-                            <p>G</p>
-                            <p>G</p>
-                            <p>G</p>
-                            <p>G</p>
+                        <div className="flex flex-row px-2 text-lg gap-2">
+                            <a href='https://t.me/Official5irenames' target="_blank">
+                                <FaTelegramPlane />
+                            </a>
+                            <a href='https://twitter.com/5NS_io' target="_blank">
+                                <FaTwitter />
+                            </a>
+                            <a href='https://www.instagram.com/5NS_io' target="_blank">
+                                <FaInstagram />
+                            </a>
                         </div>
                     </div>
                 </div>
