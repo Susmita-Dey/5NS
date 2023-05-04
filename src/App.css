@@ -5,7 +5,7 @@
 #root {
   /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 1rem;
+  /* padding: 1rem; */
   /* text-align: center; */
   --clr-bg-dark: #1f2937; /* gray-800 */
   --clr-bg-light: #fafafa; /* zinc-50 */
@@ -24,6 +24,13 @@
   color: var(--clr-text-light);
 } */
 
-button {
-  background-color: #285684;
+@responsive {
+  .gradient {
+    background: linear-gradient(
+      121.87deg,
+      #060606 15.05%,
+      rgba(55, 57, 57, 0.93) 61.84%
+    );
+    /* border-radius: 150px 150px 0px 0px; */
+  }
 }

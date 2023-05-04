@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
 import './App.css'
+import DomainSection from './components/DomainSection'
+import Features from './components/Features'
+import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
+import Newsletter from './components/Newsletter'
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
@@ -13,14 +17,15 @@ function App() {
   return (
     <>
       {/* <div className={`h-full w-full mx-auto py-2 ${darkMode ? "dark" : "light"}`}> */}
-      <div className="h-full w-full mx-auto py-2">
+      <div className="h-full w-full mx-auto">
         {/* <Navbar darkMode={darkMode}
           toggleDarkMode={toggleDarkMode} /> */}
         <Navbar />
         <HeroSection />
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
+        <Features />
+        <DomainSection />
+        <Newsletter />
+        <Footer />
       </div>
     </>
   )
