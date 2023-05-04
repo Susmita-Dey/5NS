@@ -1,9 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url("satoshi.css"); */
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Satoshi", sans-serif;
+  /* font-family: "Satoshi-Variable";
+  font-family: "Satoshi-VariableItalic";
+  font-family: "Satoshi-Light";
+  font-family: "Satoshi-LightItalic";
+  font-family: "Satoshi-Regular";
+  font-family: "Satoshi-Italic";
+  font-family: "Satoshi-Medium";
+  font-family: "Satoshi-MediumItalic";
+  font-family: "Satoshi-Bold";
+  font-family: "Satoshi-BoldItalic";
+  font-family: "Satoshi-Black";
+  font-family: "Satoshi-BlackItalic"; */
   line-height: 1.5;
   font-weight: 400;
 

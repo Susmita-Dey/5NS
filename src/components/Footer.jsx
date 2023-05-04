@@ -4,7 +4,7 @@ import { FaTelegramPlane, FaTwitter, FaInstagram } from "react-icons/fa"
 
 export default function Footer() {
     return (
-        <footer className='container mx-auto py-12 md:px-32 bg-black overflow-hidden text-white font-["Satoshi"]'>
+        <footer className='container mx-auto py-12 md:px-32 bg-black overflow-hidden text-white '>
             <div className='flex flex-col md:flex-row justify-between items-center gap-10'>
                 <div className="flex flex-row justify-center items-center">
                     <img src={Logo} alt="logo" className="w-20" />
@@ -30,24 +30,24 @@ export default function Footer() {
                 </div>
                 <div>
                     <ul className="flex flex-row list-none gap-6 text-lg cursor-pointer md:visible invisible">
-                        <li className="font-semibold">
+                        <li className="dont-semibold change-bold">
                             <a href='/'>Home</a>
                         </li>
-                        <li className="text-gray-500 font-semibold">
+                        <li className="text-gray-500 dont-semibold change-bold">
                             <a href='#'>Docs</a>
                         </li>
-                        <li className="text-gray-500 font-semibold">
+                        <li className="text-gray-500 dont-semibold change-bold">
                             <a href='#'>About</a>
                         </li>
-                        <li className="text-gray-500 font-semibold">
+                        <li className="text-gray-500 dont-semibold change-bold">
                             <a href='#'>Developers</a>
                         </li>
                     </ul>
                     <ul className="flex flex-row list-none md:mt-2 -mt-2 text-lg cursor-pointer">
-                        <li className="font-semibold">
+                        <li className="dont-semibold change-bold">
                             <a href='#'>Terms {"&"} Conditions&nbsp;&nbsp; | &nbsp;&nbsp;</a>
                         </li>
-                        <li className="font-semibold">
+                        <li className="dont-semibold change-bold">
                             <a href='#'>Privacy Policy</a>
                         </li>
                     </ul>

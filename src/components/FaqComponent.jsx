@@ -37,8 +37,8 @@ export default function FaqComponent() {
     ];
     return (
         <div className="container mx-auto my-10 flex flex-col">
-            <div className="px-20">
-                <h1 className="text-4xl mt-20 font-semibold">Frequently Asked Questions</h1>
+            <div className="flex justify-start items-start text-start px-24">
+                <h1 className="text-4xl mt-20 dont-semibold change-bold">Frequently Asked Questions</h1>
             </div>
             <div className="px-4 md:px-20 text-justify justify-center items-center ">
                 {accordiondata.map((data, index) => {

@@ -6,7 +6,7 @@ import Logo from "/5ns.svg"
 export default function Navbar(props) {
     const [isNavOpen, setIsNavOpen] = useState(false);
     return (
-        <nav className="container py-2 mx-auto flex flex-row justify-around items-center md:px-12 font-['Satoshi'] dark:text-white dark:bg-black">
+        <nav className="container py-2 mx-auto flex flex-row justify-around items-center md:px-12  dark:text-white dark:bg-black">
             <div className="flex flex-row">
                 <img src={Logo} alt="logo" className="w-20" />
                 <div className="flex flex-col py-2">
@@ -53,10 +53,10 @@ export default function Navbar(props) {
                     </div>
                     <div className="flex flex-col">
                         <ul className="flex flex-col list-none gap-2 text-lg cursor-pointer">
-                            <li className="font-semibold">Home</li>
-                            <li className="text-gray-500 font-semibold hover:underline hover:underline-offset-4">Docs</li>
-                            <li className="text-gray-500 font-semibold hover:underline hover:underline-offset-4">About</li>
-                            <li className="text-gray-500 font-semibold hover:underline hover:underline-offset-4">Developers</li>
+                            <li className="dont-semibold change-bold">Home</li>
+                            <li className="text-gray-500 dont-semibold change-bold hover:underline hover:underline-offset-4">Docs</li>
+                            <li className="text-gray-500 dont-semibold change-bold hover:underline hover:underline-offset-4">About</li>
+                            <li className="text-gray-500 dont-semibold change-bold hover:underline hover:underline-offset-4">Developers</li>
                         </ul>
                     </div>
                     <div className='flex rounded-xl shadow-xl shadow-sky-700'>
@@ -66,16 +66,16 @@ export default function Navbar(props) {
             </section>
             <div className="flex flex-row">
                 <ul className="list-none gap-6 text-lg cursor-pointer DESKTOP-MENU hidden space-x-8 lg:flex">
-                    <li className="font-semibold hover:underline hover:underline-offset-4">
+                    <li className="dont-semibold change-bold hover:underline hover:underline-offset-4">
                         <a href="/">Home</a>
                     </li>
-                    <li className="text-gray-500 font-semibold hover:underline hover:underline-offset-4">
+                    <li className="text-gray-500 dont-semibold change-bold hover:underline hover:underline-offset-4">
                         <a href="#">Docs</a>
                     </li>
-                    <li className="text-gray-500 font-semibold hover:underline hover:underline-offset-4">
+                    <li className="text-gray-500 dont-semibold change-bold hover:underline hover:underline-offset-4">
                         <a href="#">About</a>
                     </li>
-                    <li className="text-gray-500 font-semibold hover:underline hover:underline-offset-4">
+                    <li className="text-gray-500 dont-semibold change-bold hover:underline hover:underline-offset-4">
                         <a href="#">Developers</a>
                     </li>
                 </ul>
