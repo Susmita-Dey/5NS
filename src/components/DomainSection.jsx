@@ -11,7 +11,7 @@ export default function DomainSection() {
                         <p className='text-lg text-gray-500 dark:text-gray-400'>No more complicated and lengthy address. <br /> Own your .5ire Name, showcase your unique web3 Name and avatar,<br /> which contain your personal on-chain and off-chain information.
                         </p>
                     </div>
-                    <div className='flex justify-start items-start md:-ml-96 lg:-ml-72 rounded-xl shadow-xl shadow-sky-700'>
+                    <div className='flex justify-start items-start md:-ml-96 rounded-xl shadow-xl shadow-sky-700'>
                         <button className="px-6 py-2 rounded-xl text-white bg-[#285684] shadow-md shadow-sky-500 hover:bg-blue-900">Launch App</button>
                     </div>
                 </div>

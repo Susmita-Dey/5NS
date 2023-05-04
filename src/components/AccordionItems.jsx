@@ -4,7 +4,7 @@ import { SlArrowRight, SlArrowDown } from "react-icons/sl";
 import { TbCircleFilled } from "react-icons/tb";
 import { Collapse } from "react-collapse";
 
-const AccordionItems = ({ open, toggle, title, desc }) => {
+const AccordionItems = ({ open, toggle, title, desc1, desc2 }) => {
     return (
         <div className="pt-10 px-5">
             <div
@@ -20,7 +20,8 @@ const AccordionItems = ({ open, toggle, title, desc }) => {
                 </div>
             </div>
             <Collapse isOpened={open}>
-                <div className="text-base md:text-lg px-2 md:px-3 mt-4">{desc}</div>
+                <div className="text-base md:text-lg px-2 md:px-3 mt-4">{desc1}</div>
+                <div className="text-base md:text-lg px-2 md:px-3 mt-4">{desc2}</div>
             </Collapse>
         </div>
     );
