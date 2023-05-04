@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
 import DomainSection from './components/DomainSection'
+import FaqComponent from './components/FaqComponent'
 import Features from './components/Features'
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
@@ -24,6 +25,7 @@ function App() {
         <HeroSection />
         <Features />
         <DomainSection />
+        <FaqComponent />
         <Newsletter />
         <Footer />
       </div>

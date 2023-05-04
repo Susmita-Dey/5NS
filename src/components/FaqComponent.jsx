@@ -36,7 +36,7 @@ export default function FaqComponent() {
         },
     ];
     return (
-        <div className="container mx-auto mb-4">
+        <div className="container mx-auto my-10">
             <div className="px-4 text-center">
                 <h1 className="text-4xl mt-20 heading">Frequently Asked Questions</h1>
                 <p className=" m-auto mt-5 text-xl">
